@@ -15,6 +15,7 @@ public class PeojectOne {
 	{
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
+		Thread.sleep(5000);
 		driver.get("https://jqueryui.com/droppable/");
 		driver.manage().window().maximize();
 		//frame - switching on frame
