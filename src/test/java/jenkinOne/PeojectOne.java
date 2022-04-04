@@ -36,6 +36,7 @@ public class PeojectOne {
 		//A convenience method that performs click-and-hold at the location of the source element,
 		//moves to the location of the target element,
 		//then releases the mouse.
+		Thread.sleep(5000);
 		act.clickAndHold(source).moveToElement(target).release().build().perform();
 
 	}
